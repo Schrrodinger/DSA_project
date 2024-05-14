@@ -80,7 +80,7 @@ function minimizeTransaction(transactions) {
 
     // Hiển thị kết quả
     const resultContainer = document.getElementById('resultContainer');
-    resultContainer.innerHTML = 'Kết quả giao dịch:<br>' + result.join('<br>');
+    resultContainer.innerHTML = 'Transaction results:<br>' + result.join('<br>');
 }
 
 
